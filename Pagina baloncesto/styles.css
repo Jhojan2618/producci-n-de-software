@@ -1,0 +1,172 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #fdb927; /* amarillo estilo NBA */
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fdb927;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    background-color: #fdb927;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+/* DESTACADOS */
+.destacados {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.destacados h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #111;
+    padding: 25px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: #fdb927;
+    color: black;
+}
+
+/* INFO */
+.info {
+    padding: 60px 20px;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+.info-equipo {
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.equipo h3 {
+    cursor: pointer;
+}
+
+.equipo h3:hover {
+    color: #fdb927;
+}
+.equipo {
+    margin: 40px 20px;
+    padding: 20px;
+}
+
+.info-equipo {
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.jugador {
+    margin: 40px 20px;
+    padding: 20px;
+}
+
+.jugador img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.jugador h3 {
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.jugador h3:hover {
+    color: #fdb927;
+}
+
+.info-jugador {
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+/* FOOTER */
+footer {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 40px;
+}
